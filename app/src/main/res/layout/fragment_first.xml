@@ -112,7 +112,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="344dp"
         android:fontFamily="sans-serif-light"
-        android:text="Discover the new vision of Belin trought his vision. Contempary art and expresism to the highest level. Buy your tickets now in belin.com. Clic the button to get location."
+        android:text="Discover the new vision of Belin through his art. Contemporary art and expresism to the highest level. Buy your tickets now in belin.com or clic the button to buy your tickets."
         android:textSize="16sp"
         android:typeface="normal"
         app:layout_constraintStart_toStartOf="parent"
