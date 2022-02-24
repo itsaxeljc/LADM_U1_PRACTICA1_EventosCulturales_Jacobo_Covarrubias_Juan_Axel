@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="579dp"
+        android:fontFamily="sans-serif-black"
+        android:text="D'Art"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/video"
+        app:layout_constraintEnd_toEndOf="@+id/video"
+        app:layout_constraintStart_toStartOf="@+id/video"
+        app:layout_constraintTop_toTopOf="@+id/video" />
+
+    <Button
+        android:id="@+id/comenzar"
+        android:layout_width="181dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="@color/white"
+        android:cursorVisible="true"
+        android:fontFamily="sans-serif-thin"
+        android:text="Sign In"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/video"
+        app:layout_constraintStart_toStartOf="@+id/video"
+        app:layout_constraintTop_toBottomOf="@+id/video"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="258dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="478dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="@+id/video"
+        app:layout_constraintEnd_toEndOf="@+id/video"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="@+id/video"
+        app:layout_constraintTop_toTopOf="@+id/video"
+        app:layout_constraintVertical_bias="0.833"
+        android:hint="Mail"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="258dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="407dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/video"
+        app:layout_constraintEnd_toEndOf="@+id/video"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="@+id/video"
+        app:layout_constraintTop_toTopOf="@+id/video"
+        app:layout_constraintVertical_bias="1.0"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
